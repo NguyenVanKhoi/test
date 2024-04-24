@@ -1,5 +1,3 @@
-@extends('layout.main')
-@section('content')
 <footer class="footer">
     <div class="grid grid__footer">
         <div class="grid__row">
@@ -34,13 +32,12 @@
             <div class="grid__column-2-4">
                 <h3 class="footer__heading">Danh mục</h3>
                 <ul class="footer-list">
-                    <?php foreach ($load_danhmuc_footer as $danhmuc) : ?>
-                        <li class="footer-item">
-                            <a href="home.php" class="footer-item__link">
-                                Tên dnah mục
-                            </a>
-                        </li>
-                    <?php endforeach; ?>
+                    <li class="footer-item">
+                        <a href="home.php" class="footer-item__link">
+                            Tên danh mục
+                        </a>
+                    </li>
+
                 </ul>
             </div>
             <div class="grid__column-2-4">
@@ -86,4 +83,3 @@
     </div>
 </footer>
 </div>
-@endsection

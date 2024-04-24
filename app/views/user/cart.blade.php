@@ -37,7 +37,8 @@
                         <li class="home-card-item">
                             <input type="checkbox" class="home-card-inp-checkbox" name="checkbox">
                             <div class="home-card-item-img">
-                                <img src="../../../../public/user/assets/img_product/sachhay_daubinhthuongbanvanluonlaphienbangioihan.jpg" alt="" class="home-card-item-image">
+                                <img src="../../../../public/user/assets/img_product/sachhay_daubinhthuongbanvanluonlaphienbangioihan.jpg"
+                                    alt="" class="home-card-item-image">
                             </div>
                             <div class="home-card-item-name">
                                 <p class="home-card-item-name-text">Tên sản phẩm áhjgdsjsdgfdk
@@ -76,7 +77,8 @@
                         </div>
                         <div class="home-card-item-delete">
                             <div class="home-card__muangay">
-                                <button name="muamucdachon" type="submit" class="btn btn--primary home-card__btn-muangay">Mua mục đã chọn</button>
+                                <button name="muamucdachon" type="submit"
+                                    class="btn btn--primary home-card__btn-muangay">Mua mục đã chọn</button>
                             </div>
                         </div>
                     </div>

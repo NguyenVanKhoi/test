@@ -1,5 +1,3 @@
-@extends('layout.main')
-@section('content')
 <div class="grid__column-2">
     <nav class="category">
         <h3 class="category__heading">
@@ -31,4 +29,3 @@
         </ul>
     </nav>
 </div>
-@endsection

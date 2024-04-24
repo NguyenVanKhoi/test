@@ -211,7 +211,8 @@
                         <div class="grid__column-2-4">
                             <a href="home.php" class="home-product-item">
                                 <div class="home-product-item__img">
-                                    <img src="https://tse1.mm.bing.net/th?id=OIP.QWL6JYZRIVRDB5vFcarrugHaEo&pid=Api&P=0&h=220" style="width: 100%;" alt="">
+                                    <img src="https://tse1.mm.bing.net/th?id=OIP.QWL6JYZRIVRDB5vFcarrugHaEo&pid=Api&P=0&h=220"
+                                        style="width: 100%;" alt="">
                                 </div>
                                 <h4 class="home-product-item__name">
                                     Tên sản phẩm

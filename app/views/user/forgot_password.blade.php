@@ -15,7 +15,6 @@
                         <div class="auth-form__group">
                             <input type="text" name="email" placeholder="Nhập email của bạn" class="auth-form__input">
                             <span style="color: red;">
-                                <?= isset($ValidC["email"]) ? $ValidC["email"] : "" ?>
                             </span>
                         </div>
                     </div>

@@ -11,10 +11,11 @@
 </head>
 
 <body>
- <?php echo $this->runChild('header'); ?>
+ <?php echo $this->runChild('layout.header'); ?>
  <section class="content">
  <?php echo $this->yieldContent('content'); ?>
  </section>
+ <?php echo $this->runChild('layout.footer'); ?>
 </body>
 
 </html>

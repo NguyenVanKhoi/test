@@ -11,10 +11,11 @@
 </head>
 
 <body>
-    @include('header')
+    @include('layout.header')
     <section class="content">
         @yield('content')
     </section>
+    @include('layout.footer')
 </body>
 
 </html>

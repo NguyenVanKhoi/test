@@ -20,7 +20,21 @@ $router->get('/', function () {
     return "trang chủ";
 });
 //định nghĩa đường dẫn trỏ đến Product Controller
+// user
 $router->get('product', [App\Controllers\ProductController::class, 'index']);
+$router->get('cart', [App\Controllers\ProductController::class, 'cart']);
+$router->get('change-pass', [App\Controllers\ProductController::class, 'change_pass']);
+$router->get('forgot-pass', [App\Controllers\ProductController::class, 'forgot_pass']);
+$router->get('info-acccount', [App\Controllers\ProductController::class, 'infoAccout']);
+$router->get('info-pro', [App\Controllers\ProductController::class, 'infoPro']);
+$router->get('login', [App\Controllers\ProductController::class, 'login']);
+$router->get('order', [App\Controllers\ProductController::class, 'order']);
+$router->get('register', [App\Controllers\ProductController::class, 'register']);
+$router->get('review_info', [App\Controllers\ProductController::class, 'review_info']);
+$router->get('thong-tin-dat-hang', [App\Controllers\ProductController::class, 'thongTinDatHang']);
+// end user
+// admin
+
 // $router->get('add-product', [App\Controllers\ProductController::class, 'addProduct']);
 // $router->post('post-product', [App\Controllers\ProductController::class, 'postProduct']);
 // $router->get('detail-product/{id}', [App\Controllers\ProductController::class, 'detail']);
