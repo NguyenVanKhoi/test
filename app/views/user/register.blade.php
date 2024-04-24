@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('content')
-<div class="modal">
+<div class="modal d-flex ">
     <div class="modal__overlay"></div>
     <div class="modal__body">
         <div class="auth-form auth-form-register">

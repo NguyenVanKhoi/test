@@ -11,20 +11,11 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="header-main">
-                <ul class="menu">
-                    <li><a href="">Quản lý giảng viên</a></li>
-                </ul>
-            </div>
-        </header>
-        <section class="content">
-            @yield('content')
-        </section>
-        <footer>
-            <span>FPT POLYTECHNIC</span>
-        </footer>
+    @include('layout.header')
+    <section class="content">
+        @yield('content')
+    </section>
+    @include('layout.footer')
     </div>
 </body>
 

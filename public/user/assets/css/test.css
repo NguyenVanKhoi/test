@@ -9,7 +9,6 @@
     margin: 0;
 }
 .home-product-item__origin-name{
-   
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;

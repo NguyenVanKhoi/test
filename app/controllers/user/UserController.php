@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\Product;
 
-class ProductController extends BaseController
+class UserController extends BaseController
 {
     public $product;
     public function __construct()
@@ -67,7 +67,6 @@ class ProductController extends BaseController
         $products = $this->product->getProduct();
         return $this->render('thongtindathang');
     }
-
     //     public function addProduct()
     //     {
     //         return $this->render('product.add');
